@@ -1,5 +1,5 @@
 const { getSupabaseClient } = require('../client');
-const logger = require('../../utils/logger');
+const logger = require('../utils/logger');
 
 class JobLog {
   static async create(jobData) {
