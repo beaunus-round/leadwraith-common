@@ -5,13 +5,14 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/leadwraith-common.git"
+    "url": "https://github.com/beaunus-round/leadwraith-common.git"
   },
   "files": [
-    "src"
+    "src/**/*",
+    "config/**/*",
+    "constants.js"
   ],
   "dependencies": {
-    "@beaunus-round/leadwraith-common": "github:beaunus-round/leadwraith-common",
     "@supabase/supabase-js": "^2.39.0",
     "dotenv": "^16.3.1",
     "winston": "^3.11.0"
