@@ -1,8 +1,8 @@
 module.exports = {
   db: require('./database'),
-  config: require('./config'),
+  config: require('../config'),
   logger: require('./utils/logger'),
-  constants: require('./constants'),
+  constants: require('../constants'),
   utils: {
     retry: require('./utils/retry')
   }
