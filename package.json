@@ -1,11 +1,11 @@
 {
-  "name": "@yourusername/lead-enrichment-common",
+  "name": "@beaunus-round/leadwraith-common",
   "version": "1.0.0",
   "description": "Shared utilities for lead enrichment pipeline",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/lead-enrichment-common.git"
+    "url": "https://github.com/yourusername/leadwraith-common.git"
   },
   "files": [
     "src"
