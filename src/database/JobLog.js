@@ -1,4 +1,4 @@
-const { getSupabaseClient } = require('../client');
+const { getSupabaseClient } = require('./client');
 const logger = require('../utils/logger');
 
 class JobLog {

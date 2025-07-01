@@ -1,4 +1,4 @@
-const { getSupabaseClient } = require('../client');
+const { getSupabaseClient } = require('./client');
 
 class FileUpload {
   static async create(fileData) {

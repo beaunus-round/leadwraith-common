@@ -1,5 +1,5 @@
-const { getSupabaseClient } = require('../client');
-const logger = require('../../utils/logger');
+const { getSupabaseClient } = require('./client');
+const logger = require('../utils/logger');
 
 class LeadEnrichment {
   static async findByStatus(client, status, limit = 100) {
