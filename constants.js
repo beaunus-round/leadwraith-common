@@ -21,5 +21,15 @@ module.exports = {
     FINDYMAIL: 'findymail',
     AI_ENRICHMENT: 'ai_enrichment',
     UPLOAD: 'upload'
+  },
+  
+  // NEW: Phase constants for the refactored AI enrichment service
+  PHASES: {
+    PENDING: 'pending',
+    SCRAPING: 'scraping',
+    RESEARCHING: 'researching',
+    QUALIFYING: 'qualifying',
+    GENERATING: 'generating',
+    COMPLETED: 'completed'
   }
 };
