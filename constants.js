@@ -32,4 +32,10 @@ module.exports = {
     GENERATING: 'generating',
     COMPLETED: 'completed'
   }
+
+  UPLOAD_PLATFORMS: {
+  SMARTLEAD: 'smartlead',
+  EMAIL_BISON: 'emailbison'
+}
 };
+
